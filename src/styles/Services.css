@@ -1,0 +1,50 @@
+.services-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Bannière */
+.services-banner {
+  width: 100%;
+  background-color: #008080;
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.services-banner h1 {
+  font-size: 2.5rem;
+}
+
+/* Détails services */
+.services-details {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.service-item {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h2 {
+  color: #008080;
+  margin-bottom: 1rem;
+}
+
+.service-item p {
+  color: #666;
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+  .services-banner h1 {
+    font-size: 2rem;
+  }
+}
